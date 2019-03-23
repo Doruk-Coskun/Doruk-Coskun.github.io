@@ -19,9 +19,10 @@ SceneParser object contains the SceneParser script which is responsible for pars
 
 ![Editor-Mesh-Inspector](/assets/screen-shots/Editor-Mesh-Inspector.png)
 
-Using the Transform component of each gameobject, their transform, rotation, and scale can easily be set. 
+Using the Transform component of each gameobject, their position, rotation, and scale can easily be set. 
 
-For Scene Geometry objects, Mesh property of the Mesh Renderer component is used to get the vertex positions of the object. In the case of spheres, their mathematical representation is used. The radius of the spheres is taken as half of their x scale. This way, cheaper yet more accurate representation of the spheres is achieved. Although, this representation may introduce problems while implementing ovoid objects. Objects also have a RayTracingMaterial. Ambient, diffuse, specular, Phong exponent, mirror reflectance, transparency, and the refraction index of the object can be set here. xyz components represent RGB color reflectance coefficients respectively.
+For Scene Geometry objects, Mesh property of the Mesh Renderer component is used to get the vertex positions. In the case of spheres, their mathematical representation is used. The radius of the spheres is taken as half of their ```x``` scale. This way, spheres can be represented cheaper yet more accurately. Although, this representation will cause problems when I will implement instancing and ovoid objects. 
+Scene Geometry objects also have a RayTracingMaterial. Ambient, diffuse, specular, Phong exponent, mirror reflectance, transparency, and the refraction index of the object can be set here. ```xyz``` attributes represent RGB color reflectance coefficients respectively.
 
 Currently, only directional light and point lights are supported. Direction (directional light only), intensity, and color of the lights can be set in the Inspector.
 
