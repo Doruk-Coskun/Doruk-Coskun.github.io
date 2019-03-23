@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "Introduction to GPU Ray Tracing in Unity"
-categories: graphics, unity, gpu, raytracing
+categories: graphics, unity, gpu, ray tracing
 author: "Doruk Coşkun"
 ---
 
-We are expected to implement a CPU ray tracer in my CENG795 Advanced Ray Tracing lecture written in C++. After an agreement with my lecturer, I have started to implement my ray tracer in Unity using Compute Shaders. The main reason behind this decision was to use the coding projects given in the lecture as a medium for deepening my knowledge and experience in Unity and shaders. I believe if I can manage to form the correlation between the physically based rendering concepts I learn during the semester with the quality of life tools presented in Unity's editor, I can create a working environment for myself where I can experiment on scenes I build and easily implement new concepts (with the help Unity editor provides) .
+We are expected to implement a CPU ray tracer in my CENG795 Advanced Ray Tracing lecture written in C++. After an agreement with my lecturer, I have started to implement my ray tracer in Unity using Compute Shaders. The main reason behind this decision was to use the coding projects given in the lecture as a medium for deepening my knowledge and experience in Unity and shaders. 
+
+I believe if I can manage to form the correlation between the physically based rendering concepts I learn during the semester with the quality of life tools presented in Unity's editor, I can create a working environment for myself where I can experiment on scenes I build and easily implement new concepts (with the help Unity editor provides) .
 
 Mainly I can separate my ray tracer into two components:
 - Editor
