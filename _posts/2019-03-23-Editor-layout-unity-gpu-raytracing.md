@@ -46,3 +46,4 @@ There are some important things to note related to my SceneParser script and the
 
 SceneData class is organized in the way it is so that RayTracingMaster script can set the GPU structured buffers easier. Lists of Structs can be set to ComputeBuffers using ```ComputeBuffer.SetData(int struct_count, int struct_size_as_float)``` function. These buffers will be later used in compute shader for our calculations.
 
+![EditorDemons](/assets/screen-shots/EditorDemons.gif)
