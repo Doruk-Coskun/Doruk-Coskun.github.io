@@ -1,18 +1,11 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About Me
+permalink: /aboutme/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a senior Computer Engineering student at Middle East Technical University. I'm a computer graphics and game development enthusiast and I use Unity as my playground. I've been developing small games and computer graphics related experiments in Unity for at least a couple of years now. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+In my professional career, I want to be able to express my creative, artistic and experimental ideas. I believe game development and computer graphics are the common ground these creative and artistic pursuits meet engineering and logic.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+As a player myself, I have taken various volunteer tasks in METU E-Sports Society which consists of more than 1500 students, undergrad and graduate alike. I have started as a mere Counter-Strike Game Coordinator and in my final year, I have taken the duty of Vice President in the society. In Ankara, I and 50 other volunteers organized the first official E-Sports tournament of Turkey. With over 1000 people taking part in this organization, I feel the pride of lighting the torch that will be carried over many years.

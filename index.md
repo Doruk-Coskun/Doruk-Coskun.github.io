@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+These are posts about some of the projects I have worked on related to game development and computer graphics.
