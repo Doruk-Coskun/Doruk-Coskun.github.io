@@ -3,7 +3,7 @@ author: Doruk Coşkun
 email: 1dorukcoskun@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   You can find information about me and my posts about my personal projects in this blog.
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -37,8 +37,8 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+ - about.md
 
 # Build settings
 theme: minima
