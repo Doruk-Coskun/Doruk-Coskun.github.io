@@ -32,3 +32,5 @@ Ray tracing concepts which I will implement includes:
 - Spot, area, environment lights
 
 As I progress I will introduce more concepts which I will implement.
+
+[This another blog](http://blog.three-eyed-games.com/2018/05/03/gpu-ray-tracing-in-unity-part-1/) by David Kuri was increadibly helpful for me to start on my own project. I would highly suggest his tutorial as he explains his implementation in much greater detail. But unfortunately he implements only a small sum of the concepts I have mentioned above. Still worthwhile.
