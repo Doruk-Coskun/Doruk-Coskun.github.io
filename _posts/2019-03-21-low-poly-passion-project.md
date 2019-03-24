@@ -7,7 +7,7 @@ author: "Doruk Coşkun"
 
 For [Gateway 2018](https://www.facebook.com/GATEWay.METU/), a game convention held in METU Informatics Institute, I have prepared Rise of the Square Pyramid, my first passionate 3D game made in Unity.
 
-![ROTSP-poste2](/assets/screen-shots/ROTSP-poste2.png)
+![ROTSP-poste2](/assets/screen-shots/ROTSP-poster2.png)
 
 After years of fooling around in Unity, I have decided to bring my desire to create a 3D game to life for [GateWay](https://www.facebook.com/GATEWay.METU/) game convention. Months before the convention I have started my project. During this period I wanted to focus on creating beautiful graphics and an immersive story. I have also decided to use this project as an excuse for myself to delve deeper into the graphics side of game development. One of the key points I strived for was achieving this visual fidelity with a constant 60 FPS in MacBook retina display (2880x1800). So optimization and performance were crucial.
 
