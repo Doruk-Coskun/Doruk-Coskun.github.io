@@ -5,9 +5,9 @@ categories: game dev, graphics, unity
 author: "Doruk Coşkun"
 ---
 
-![ROTSP-poster](/assets/screen-shots/ROTSP-poster.png)
-
 For [Gateway 2018](https://www.facebook.com/GATEWay.METU/), a game convention held in METU Informatics Institute, I have prepared Rise of the Square Pyramid, my first passionate 3D game made in Unity.
+
+![ROTSP-poste2](/assets/screen-shots/ROTSP-poste2.png)
 
 After years of fooling around in Unity, I have decided to bring my desire to create a 3D game to life for [GateWay](https://www.facebook.com/GATEWay.METU/) game convention. Months before the convention I have started my project. During this period I wanted to focus on creating beautiful graphics and an immersive story. I have also decided to use this project as an excuse for myself to delve deeper into the graphics side of game development. One of the key points I strived for was achieving this visual fidelity with a constant 60 FPS in MacBook retina display (2880x1800). So optimization and performance were crucial.
 
@@ -34,9 +34,10 @@ From the get-go, I wanted to get my hands dirty with Realtime Global Illuminatio
 
 In my scene, I had areas which contain comparatively smaller objects. Making these objects Lightmap Static and including them in RGI precomputations would increase the RGI precomputation time unnecessarily. That's why I used Light Probes for the indirect light calculations of these objects.
 
+## Shadows
+
 ![ROTSP-sun-set](/assets/screen-shots/ROTSP-sun-set.png)
 
-## Shadows
 Initially, I wanted to create a desert scene with a sunset. Over many experiments and iterations, I have decided that a midday sun would reflect the spirit of the game better. While I was dealing with different times of the day one topic kept coming to my attention: shadows. My desert scene was more than 2000x2000 unit scale with at least a couple of hundred meshes. Undoubtedly shadows played a huge role in this case. They created performance issues but even more notable than that, they produced light artifacts. The light was leaking through the meshes and the meshes were forming unrealistic shadows. Taking advantage of my lighting settings, I disabled Receive Shadows and Cast Shadows settings of insignificant objects. For important objects, I set Two Sided Cast shadows which eliminated light leaking artifacts. I also tweaked directional light Bias settings to find a sweet spot between realism and shadow artifacts.
 
 ![ROTSP-lights](/assets/screen-shots/ROTSP-lights.png)
@@ -67,3 +68,7 @@ Square Pyramid from Pyramids Dynasty has awakened from his pyramid tomb after ce
 Square Pyramid is a Triangle-Caster and he is from loyal Pyramid blood. He is smart, calm and a rational character. Though you should care your words around him, especially if you are not from the honorable Triangle family.
 
 “A Pyramid?! (Said as an insult) I will wipe your abominable shape from our perfect Cube world!”
+
+## Screen Shots
+
+![ROTSP-gameplay](/assets/screen-shots/ROTSP-gameplay.png)
