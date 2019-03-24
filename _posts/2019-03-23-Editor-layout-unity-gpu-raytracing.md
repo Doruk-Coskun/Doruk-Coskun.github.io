@@ -44,6 +44,19 @@ One thing to note here is Inspector Conditional Hide code I have used is acquire
 
 There are some important things to note related to my `SceneParser` script and the way I parse the data: To set up my camera rays in the compute shader I use `CameraToWorldMatrix` and `CameraInverseProjectionMatrix`. This, unfortunately, arrises problems I can't specify at the moment and requires a rework. Another problem I faced was while acquiring the vertex data of the meshes. Since vertex data in Mesh is stored in object space, they have to be rotated, scaled and translated according to the Transform component of the object.
 
+````csharp
+Mesh mesh = meshObject.GetComponent<MeshFilter>().mesh;
+
+Vector3[] newVertexList = mesh.vertices;
+
+for (int i = 0; i < newVertexList.Length; i++)
+{
+    newVertexList[i] = meshObject.rotation * newVertexList[i];
+    newVertexList[i] = meshObject.localScale.x * newVertexList[i];
+    newVertexList[i] = meshObject.position + newVertexList[i];
+}
+```
+
 `SceneData` class is organized in the way it is so that `RayTracingMaster` script can set the GPU structured buffers easier. Lists of Structs can be set to ComputeBuffers using ```ComputeBuffer.SetData(int struct_count, int struct_size_as_float)``` function. These buffers will be later used in compute shader for our calculations.
 
 ![EditorDemons](/assets/screen-shots/EditorDemons.gif)
