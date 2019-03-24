@@ -22,17 +22,17 @@ As it can be seen from the scene hierarchy window, our scene consists of `Scene 
 Using the Transform component of each gameobject, their position, rotation, and scale can easily be set. 
 
 For `Scene Geometry` objects, Mesh property of the Mesh Renderer component is used to get the vertex positions. In the case of spheres, their mathematical representation is used. The radius of the spheres is taken as half of their `x` scale. This way, spheres can be represented cheaper yet more accurately. Although, this representation will cause problems when I will implement instancing and ovoid objects. 
-`Scene Geometry` objects also have a `RayTracingMaterial`. Ambient, diffuse, specular, Phong exponent, mirror reflectance, transparency, and the refraction index of the object can be set here. `xyz`attributes represent RGB color reflectance coefficients respectively.
+`Scene Geometry` objects also have a `RayTracingMaterial`. Ambient, diffuse, specular, Phong exponent, mirror reflectance, transparency, and the refraction index of the object can be set here. `xyz` attributes represent RGB color reflectance coefficients respectively.
 
 Currently, only directional light and point lights are supported. Direction (directional light only), intensity, and color of the lights can be set in the Inspector.
 
 ![Editor-Camera-Inspector](/assets/screen-shots/Editor-Camera-Inspector.png)
 
-Camera object has Transform and Camera components. Field of view and projection of the camera can be set here. This object also contains the `RayTracingMaster script`. This script is responsible for creating the render texture and the compute shader. It also sets the compute shaders buffers and finally displays the render texture. For camera objects to work, they have to be the child of SceneCameras gameobject.
+Camera object has Transform and Camera components. Field of view and projection of the camera can be set here. This object also contains the `RayTracingMaster` script. This script is responsible for creating the render texture and the compute shader. It also sets the compute shaders buffers and finally displays the render texture. For camera objects to work, they have to be the child of SceneCameras gameobject.
 
 ![Editor-SceneParser-Inspector](/assets/screen-shots/Editor-SceneParser-Inspector.png)
 
-`SceneParser` object can be used the play with various render settings. `Camera No` slider can be used to change the active camera. Using `Generate Scene from XML`option, an XML file can be parsed to generate the scene in the editor mode. Some example XML can be found in the _SceneXMLs folder. `GenerateScene Scene Editor` option lets you update the scene during play mode as you desire, or you can enable `Realtime Update`. This feature is one of the main reasons I wanted to implement a ray tracer in Unity. We can easily create dynamic scenes and see how they play out in the play mode.
+`SceneParser` object can be used the play with various render settings. `Camera No` slider can be used to change the active camera. Using `Generate Scene from XML` option, an XML file can be parsed to generate the scene in the editor mode. Some example XML can be found in the _SceneXMLs folder. `GenerateScene Scene Editor` option lets you update the scene during play mode as you desire, or you can enable `Realtime Update`. This feature is one of the main reasons I wanted to implement a ray tracer in Unity. We can easily create dynamic scenes and see how they play out in the play mode.
 
 `PNGConverter` script saves the first rendered frame as a PNG into Resources folder. I wish to work on this script in the future and be able to take videos of our render.
 
