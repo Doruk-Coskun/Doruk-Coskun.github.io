@@ -5,7 +5,7 @@ categories: editor, graphics, unity, gpu, ray tracing
 author: "Doruk Coşkun"
 ---
 
-In this post, I will go over the components and scripts used in the editor. You can check my [GitHub repo](https://github.com/Doruk-Coskun/Unity-Ray-Tracer) for the whole project.
+In this post, I will go over the components and scripts used in the editor. You can check my [GitHub repository](https://github.com/Doruk-Coskun/Unity-Ray-Tracer) for the whole project.
 
 ## Scene Layout and Hierarchy Window
 

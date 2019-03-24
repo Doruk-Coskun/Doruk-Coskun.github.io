@@ -5,7 +5,7 @@ categories: compute shader, graphics, unity, gpu, ray tracing
 author: "Doruk Coşkun"
 ---
 
-Now that we have taken a look into Editor layout, we can move on to the most crucial part of my Unity ray tracer, the compute shader. You can check my [GitHub repo](https://github.com/Doruk-Coskun/Unity-Ray-Tracer) for the whole project.
+Now that we have taken a look into Editor layout, we can move on to the most crucial part of my Unity ray tracer, the compute shader. You can check my [GitHub repository](https://github.com/Doruk-Coskun/Unity-Ray-Tracer) for the whole project.
 
 ## Primitive Structs
 
@@ -90,12 +90,15 @@ Beer's Law is introduced to compute the attenuation of the ray's energy inside a
 
 There are some small yet worth mentioning points I want to talk about.
 
-As of now, I don't precompute and store the normal values of the triangles. Thus each ray computes the same triangle normals over and over again. As the triangle count increases it may introduce some performance issues.
+- As of now, I don't precompute and store the normal values of the triangles. Thus each ray computes the same triangle normals over and over again. As the triangle count increases it may introduce some performance issues.
 
-While dealing with transparent objects I check whether the ray is inside or outside of the object. I determine the origin of my ray according to this.
+- While dealing with transparent objects I check whether the ray is inside or outside of the object. I determine the origin of my ray according to this.
 
-There are more than I like if-else statements in my code. The performance cost of too many conditionals are not negligible and I believe I need to refactor my code to optimize further.
+- There are more than I like if-else statements in my code. The performance cost of too many conditionals are not negligible and I believe I need to refactor my code to optimize further.
 
-Here you can compare my result to the referance image
+Here you can compare my result (former) to the referance image (latter)
 
-![my-result](/assets/screen-shots/me_CornellBox_glass.png) ![reference-image](/assets/screen-shots/cornellbox_glass.png)
+![my-result](/assets/screen-shots/me_CornellBox_glass.png) 
+
+
+![reference-image](/assets/screen-shots/cornellbox_glass.png)
