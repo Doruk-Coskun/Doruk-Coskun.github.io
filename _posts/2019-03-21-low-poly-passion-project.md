@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My 3D Low Poly Passion Project"
-categories: game dev, graphics, unity
+categories: gamedev
 author: "Doruk Coşkun"
 ---
 
@@ -56,7 +56,7 @@ After extensive Profiler and Frame Debugger analyses, I realized the need for re
 
 ![ROTSP-scene-window](/assets/screen-shots/ROTSP-scene-window.png)
 
-Since I have an enormous scene (2000x2000 units with hundreds of meshes) RGI precomputation time was unacceptabily high. This raised the need to optimize the UV charts and Clustering of my objects. I have already mentioned that I disabled GI for small objects. For the terrain and mountain objects, I have tweaked Lightmap Parameters and RealtimeUV settings. I balanced the visual consequences of my optimizations and precomputation time optimization. As a result without sacrificing too much from visual fidelity, I managed to reduce precomputation time from 14 hours to 2.5 minutes.
+Since I have an enormous scene (2000x2000 units with hundreds of meshes) RGI precomputation time was unacceptabily high. This raised the need to optimize the UV charts and Clustering of my objects. I have already mentioned that I disabled GI for small objects. For the terrain and mountain objects, I have tweaked Lightmap Parameters and RealtimeUV settings. I balanced the visual consequences of my optimizations and precomputation time. As a result without sacrificing too much from visual fidelity, I managed to reduce precomputation time from 14 hours to 2.5 minutes.
 
 ![ROTSP-optimization](/assets/screen-shots/ROTSP-optimization.png)
 

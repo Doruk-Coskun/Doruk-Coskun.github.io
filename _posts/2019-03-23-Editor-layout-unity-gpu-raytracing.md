@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Editor layout of Unity GPU Ray Tracer"
-categories: editor, graphics, unity, gpu, ray tracing
+categories: raytracing
 author: "Doruk Coşkun"
 ---
 
@@ -32,7 +32,7 @@ Camera object has Transform and Camera components. Field of view and projection 
 
 ![Editor-SceneParser-Inspector](/assets/screen-shots/Editor-SceneParser-Inspector.png)
 
-`SceneParser` object can be used the play with various render settings. `Camera No` slider can be used to change the active camera. Using `Generate Scene from XML` option, an XML file can be parsed to generate the scene in the editor mode. Some example XML can be found in the _SceneXMLs folder. `GenerateScene Scene Editor` option lets you update the scene during play mode as you desire, or you can enable `Realtime Update`. This feature is one of the main reasons I wanted to implement a ray tracer in Unity. We can easily create dynamic scenes and see how they play out in the play mode.
+`SceneParser` object can be used to play with various render settings. `Camera No` slider can be used to change the active camera. Using `Generate Scene from XML` option, an XML file can be parsed to generate the scene in the editor mode. Some example XML can be found in the _SceneXMLs folder. `GenerateScene Scene Editor` option lets you update the scene during play mode as you desire, or you can enable `Realtime Update`. This feature is one of the main reasons I wanted to implement a ray tracer in Unity. We can easily create dynamic scenes and see how they play out in the play mode.
 
 `PNGConverter` script saves the first rendered frame as a PNG into Resources folder. I wish to work on this script in the future and be able to take videos of our render.
 

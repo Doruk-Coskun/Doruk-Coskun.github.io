@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Compute Shader Basics of Unity GPU Ray Tracer"
-categories: compute shader, graphics, unity, gpu, ray tracing
+categories: raytracing
 author: "Doruk Coşkun"
 ---
 

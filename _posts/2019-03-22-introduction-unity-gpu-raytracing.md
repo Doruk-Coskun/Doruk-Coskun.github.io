@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introduction to GPU Ray Tracing in Unity"
-categories: graphics, unity, gpu, ray tracing
+categories: raytracing
 author: "Doruk Coşkun"
 ---
 
