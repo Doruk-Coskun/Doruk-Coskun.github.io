@@ -57,7 +57,9 @@ main {
  */
 img {
   max-width: 75%;
-  vertical-align: middle;
+//  vertical-align: middle;
+  display: flex; 
+  justify-content: center
 }
 
 
