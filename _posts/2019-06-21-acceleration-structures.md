@@ -21,7 +21,7 @@ Since I was aiming for a real-time ray tracer, I wanted to construct the BVH tre
 
 During my searches, I have encountered many different solutions for the construction of the BVH trees. One of them suggested precomputing the BVH trees and storing them as `ScriptableObject`'s of Unity. This way, recalculation of the scenes was not necessary.
 
-I have created `BVHAcc` script which handled the construction of the BVH trees. Initially, I have used EqualCounts algorithm suggested in the ![Physically Based Rendering](https://www.pbrt.org) book of Peter Sherley. The algorithm divided the primitives (in our case, the triangles) into two equal count lists. It determined the split axis according to the volume of the members of the primitives list and divided the list into two equal counted primitivers list by the longest axis.
+I have created `BVHAcc` script which handled the construction of the BVH trees. Initially, I have used EqualCounts algorithm suggested in the [Physically Based Rendering](https://www.pbrt.org) book of Peter Sherley. The algorithm divided the primitives (in our case, the triangles) into two equal count lists. It determined the split axis according to the volume of the members of the primitives list and divided the list into two equal counted primitivers list by the longest axis.
 
 Further, into the development, I have also started working on implementing Surface Area Heuristics BVH tree construction. I have also provided simple UI dropdown to switch between different construction algorithms.
 
@@ -45,7 +45,7 @@ I have used the fastest ray-axis aligned bounding box implementation method on t
 
 I have used the least branching ray-triangle intersection algorithm I could find.
 
-I have stripe aligned my `StructuredBuffers` by using 32 bytes sized `LinearBVHNode`'s. You can check this ![article by Evan Hart](https://developer.nvidia.com/content/understanding-structured-buffer-performance) to gain further information about increasing memory access performance of `StructuredBuffers`.
+I have stripe aligned my `StructuredBuffers` by using 32 bytes sized `LinearBVHNode`'s. You can check this [article by Evan Hart](https://developer.nvidia.com/content/understanding-structured-buffer-performance) to gain further information about increasing memory access performance of `StructuredBuffers`.
 
 And finally you can check the results here. I have used the Stanford Bunny in my demo scenes. I have decimated polygon count down to 696 polygons using Blender and rendered in 600x600 resolution.
 
