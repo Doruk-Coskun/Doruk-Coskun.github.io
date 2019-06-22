@@ -5,9 +5,9 @@ categories: raytracing
 author: "Doruk Coşkun"
 ---
 
-![Bunny1](/assets/screen-shots/Bunny1.png)
-
 In this post, I want to talk about my work in optimizing my ray tracer. It has been a challenging journey, but I feel the pride to announce that I have managed to achieve real-time ray tracing.
+
+![Bunny1](/assets/screen-shots/Bunny1.png)
 
 The first step in optimizing my ray tracer was implementing BVH acceleration structures. Parsing scene data in the Unity's editor and making the rendering in the GPU posed a challenge. I decided to first:
 
@@ -47,6 +47,6 @@ I have used the least branching ray-triangle intersection algorithm I could find
 
 I have stripe aligned my `StructuredBuffers` by using 32 bytes sized `LinearBVHNode`'s. You can check this [article by Evan Hart](https://developer.nvidia.com/content/understanding-structured-buffer-performance) to gain further information about increasing memory access performance of `StructuredBuffers`.
 
-And finally you can check the results here. I have used the Stanford Bunny in my demo scenes. I have decimated polygon count down to 696 polygons using Blender and rendered in 600x600 resolution.
+FPS statistics explains it all. I have used the Stanford Bunny in my demo scenes. I have decimated polygon count down to 696 polygons using Blender and rendered in 600x600 resolution.
 
 ![Bunny2](/assets/screen-shots/Bunny2.png)
