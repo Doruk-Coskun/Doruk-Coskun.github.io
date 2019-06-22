@@ -41,7 +41,7 @@ Tracing the BVH array in the GPU was by far the hardest part. In an infinite loo
 
 ## Other acceleration methods
 
-I have used the fastest ray-axis aligned bounding box implementation method on the internet, and you can check the detailed explanation in the Roman Wiche's blog.
+I have used the fastest ray-axis aligned bounding box implementation method on the internet, and you can check the detailed explanation in the [Roman Wiche's blog](https://medium.com/@bromanz/another-view-on-the-classic-ray-aabb-intersection-algorithm-for-bvh-traversal-41125138b525).
 
 I have used the least branching ray-triangle intersection algorithm I could find.
 
