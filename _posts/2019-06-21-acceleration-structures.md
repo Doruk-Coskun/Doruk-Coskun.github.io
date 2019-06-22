@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Acceleration Structures"
+title: "Acceleration Structures of Unity GPU Ray Tracer"
 categories: raytracing
 author: "Doruk Coşkun"
 ---
