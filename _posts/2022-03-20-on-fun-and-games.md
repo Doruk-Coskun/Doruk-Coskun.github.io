@@ -7,7 +7,7 @@ author: "Doruk Coşkun"
 
 In this post, I’ve briefed my journey to understand games, what makes them fun, and how I translate this understanding to making my designs. Along the way, I’ve threaded on the path carved by the experts before, expanded on their ideas where I can, and hopefully urged you to consider different perspectives with the points I made and questions I asked.
 
-### **But, What are Games?**
+## **But, What are Games?**
 
 To understand the fun in games, I’m first compelled to define these terms. Many people throughout history attempted to explain what embodies games. Since games comprise many genres from sports and the games of our childhood to board and video games, reaching a consensus on a comprehensive definition is impossible. In his paper, _I Have No Words & I Must Design_, Greg Costikyan defines games as **“An interactive structure of endogenous meaning that requires players to struggle toward a goal.”** I want to raise a couple of discussion points regarding his definition.
 
