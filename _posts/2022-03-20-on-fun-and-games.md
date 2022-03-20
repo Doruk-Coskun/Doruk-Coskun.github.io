@@ -7,7 +7,7 @@ author: "Doruk Coşkun"
 
 In this post, I’ve briefed my journey to understand games, what makes them fun, and how I translate this understanding to making my designs. Along the way, I’ve threaded on the path carved by the experts before, expanded on their ideas where I can, and hopefully urged you to consider different perspectives with the points I made and questions I asked.
 
-<span style="color:#de80db">### **But, What are Games?**</span>
+### But, What are Games?
 
 To understand the fun in games, I’m first compelled to define these terms. Many people throughout history attempted to explain what embodies games. Since games comprise many genres from sports and the games of our childhood to board and video games, reaching a consensus on a comprehensive definition is impossible. In his paper, _I Have No Words & I Must Design_, Greg Costikyan defines games as **“An interactive structure of endogenous meaning that requires players to struggle toward a goal.”** I want to raise a couple of discussion points regarding his definition.
 
@@ -21,7 +21,7 @@ With the rise of the trend of incorporating blockchain technology and NFTs in ga
 
 As I formulate more of my thoughts, I will share them in future blog posts. But in essence, I believe Costikyan's definition is the most encompassing and functional definition of games. Unfortunately, this definition doesn’t help us in answering “why” or “how” a game is fun, but it establishes the boundaries and fundamentals for our designs.
 
-<span style="color:#de80db">### **Fun?**</span>
+### Fun?
 
 _LeBlanc's taxonomy of game pleasures_ builds upon our definition of games and lays the groundwork for defining fun. LeBlanc’s categorization presents 8 elements, namely sensation, fantasy, narrative, challenge, fellowship, discovery, expression, and submission. Although its universality and completeness are debated, this taxonomy enables us to analyze games in 8 different dimensions. Each dimension presents a spectrum and any game that we can think of contains a combination of these elements. Thus to create fun we need to find the right combination of these dimensions. But how can we decide on which ones to focus on without knowing what the player wants?	
 
