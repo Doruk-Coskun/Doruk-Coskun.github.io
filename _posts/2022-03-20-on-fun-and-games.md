@@ -19,15 +19,15 @@ With the rise of the trend of incorporating blockchain technology and NFTs in ga
 
 As I formulate more of my thoughts, I will share them in future blog posts. But in essence, I believe Costikyan's definition is the most encompassing and functional definition of games. Unfortunately, this definition doesn’t help us in answering “why” or “how” a game is fun, but it establishes the boundaries and fundamentals for our designs.
 
-### Game Pleasures
+## Game Pleasures
 
 LeBlanc's taxonomy of game pleasures builds upon our definition of games and lays the groundwork for defining fun. LeBlanc’s categorization presents 8 elements, namely sensation, fantasy, narrative, challenge, fellowship, discovery, expression, and submission. Although its universality and completeness are debated, this taxonomy enables us to analyze games in 8 different dimensions. Each dimension presents a spectrum and any game that we can think of contains a combination of these elements. Thus to create fun we need to find the right combination of these dimensions. But how can we decide on which ones to focus on without knowing what the player wants?	
 
-### Player Types
+## Player Types
 
 Bartle’s taxonomy of player types defines 4 types of players, namely achievers, explorers, socializers, and killers. Since Bartle’s categorization only lists MMO players, Amy Jo Kim expanded on this categorization by formulating Kim’s Social Action Matrix. This matrix divides players into 4 quadrants, competitors, collaborators, expressers, and explorers. Its universality and completeness are debated (again), but this helps us realize the existence of various player types and that those player types expect different types of pleasures we listed with LeBlanc’s taxonomy. In the book 21st Century Game Design, Chris Bateman and Richard Boon propose the player types are based on Myers-Briggs personality types and Ralph Koster disputes the accuracy of this association in his book A Theory of Fun for Game Design. Furthermore, interests and thus types of players exceed their categorization and change over time, sometimes during the same play session, proving the inadequacy of player categorizations to capture the uniqueness of each individual. Yet we know we can approach categorization of players as we did to the elements of fun, with dimensions of spectrums, and tailor the fun element according to that.
 
-# Fun?
+## Fun?
 
 This raises the question, should we aim to make “fun” games to begin with? A hyper-casual or casual mobile game designer would debate that he’d rather design addictive games. Educational games aim to teach real-life applicable skills, putting fun elements lower in their priority list. Then some games convey a human experience through their story. Have I cried multiple times while playing The Last of Us series? Yes. Was it “fun” to cry? Not really. Are they the best games I’ve ever played? Yes, yes, they are. At least the game development community seems like it has reached a consensus on using the word “engagement” rather than “fun”. And as designers, our goal is to craft an engaging and meaningful gameplay experience.	
 
