@@ -5,7 +5,7 @@ categories: gamedev
 author: "Doruk Coşkun"
 ---
 
-In this post, I’ve briefed my journey to understand games, what makes them fun, and how I translate this understanding to making my designs. Along the way, I’ve threaded on the path carved by the experts before, expanded on their ideas where I can, and hopefully urged you to consider different perspectives with the points I made and questions I asked.
+In this post, I’ve briefed my journey to understand games, what makes them fun, and how I translate this understanding to making my designs. Along the way, I’ve threaded on the path paved by the experts before, expanded on their ideas where I can, and hopefully urged you to consider different perspectives with the points I made and questions I asked.
 
 ### But, What are Games?
 
